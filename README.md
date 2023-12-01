@@ -6,5 +6,6 @@ an python based CPU indicator.
 > https://github.com/pyinstaller/pyinstaller/issues/5668
 
 # v0.1 初代功能：
-根據CPU使用率調整視窗大小，超酷超實用 (X
+根據CPU使用率調整視窗大小，超酷超實用
+
 Adjust window size by CPU usage, super cool and useful
