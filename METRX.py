@@ -14,7 +14,7 @@ def windowscontrol():
     root.after(50, windowscontrol)
 
 root = tk.Tk()
-
+root.call('wm', 'attributes', '.', '-topmost', True)
 screen_width = root.winfo_screenwidth()
 screen_height = root.winfo_screenheight()
 root.geometry(f"+0+0")
