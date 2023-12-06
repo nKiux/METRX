@@ -24,7 +24,7 @@ root.call('wm', 'attributes', '.', '-topmost', True)
 screen_width = root.winfo_screenwidth()
 screen_height = root.winfo_screenheight()
 root.geometry(f"+0+{screen_height - 100}")
-#root.iconbitmap('MX.ico')
+root.iconbitmap('MX.ico')
 asyncio.run(windowcontrol())
 root.mainloop()
 
